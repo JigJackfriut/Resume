@@ -8,4 +8,4 @@ PutHTML:
 	cp resume.js /var/www/html/Resume/
 
 	echo "Current contents of your HTML directory: "
-	ls -l /var/www/html/solardemo
+	ls -l /var/www/html/Resume
