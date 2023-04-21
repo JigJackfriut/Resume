@@ -68,3 +68,28 @@ th {
   background-color: #ddd;
   font-weight: bold;
 }
+
+.tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.tab a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.tab a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.tab a.active {
+  background-color: #4CAF50;
+  color: white;
+}
